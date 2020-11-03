@@ -1,17 +1,4 @@
-const first = [1, 2, 3]
-const second = [4, 5, 6]
+import Teacher, { promote } from './teacher' 
 
-// spread operator
-const combined = [...first, ...second]
-const clone = [...first]
-
-
-const firstO = { name: 'Mosh' };
-const secondO = { job: 'Instructor' };
-
-const combinedObject = {
-  ...firstO, ...secondO, 
-  location: 'Australia'
-}
-
-const cloneO = { ...first };
+const teacher = new Teacher('Mosh', "Nodejs")
+teacher.teach()
