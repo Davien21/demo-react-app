@@ -3,3 +3,4 @@ const second = [4, 5, 6]
 
 // spread operator
 const combined = [...first, ...second]
+const clone = [...first]
